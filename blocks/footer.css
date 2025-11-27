@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  padding: 60px 0;
+  justify-content: center;
+  color: rgba(33, 33, 33, 0.7);
+}
+
+.footer__text {
+  margin: 0;
+}
