@@ -7,6 +7,7 @@
   height: 413px;
   width: 100%;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .card__content {
@@ -23,6 +24,9 @@
   text-overflow: ellipsis;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: medium;
+  margin: 12px 0 40px;
 }
 
 .card__like-button {
@@ -32,6 +36,11 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+}
+
+.card__like-button:hover {
+  opacity: 100%;
+  transition: ease-out 0.1s;
 }
 
 @media screen and (max-width: 667px) {

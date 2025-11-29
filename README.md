@@ -1,14 +1,18 @@
 # Project 3: Spots
+An image sharing site
 
 ### Overview  
 
 * Intro  
 * Figma  
 * Images  
+* Responsive Design
+* HTML
+* CSS
   
 **Intro**
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+This project was made to have elements automatically ajust to all device screen sizes. 
   
 **Figma**  
   
