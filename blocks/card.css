@@ -22,10 +22,12 @@
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-style: medium;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
   margin: 12px 0 40px;
 }
 
@@ -41,10 +43,15 @@
 .card__like-button:hover {
   opacity: 100%;
   transition: ease-out 0.1s;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 667px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__title {
+    max-width: 235px;
   }
 }
