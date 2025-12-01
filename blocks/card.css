@@ -19,16 +19,17 @@
 
 .card__title {
   max-width: 353px;
-  display: -webkit-box;
+  display: "-webkit-box";
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
+  white-space: nowrap;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
-  margin: 12px 0 40px;
+  margin: 12px 0 0;
 }
 
 .card__like-button {
@@ -53,5 +54,6 @@
 
   .card__title {
     max-width: 235px;
+    margin: 12px 0 0;
   }
 }
